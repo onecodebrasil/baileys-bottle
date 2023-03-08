@@ -8,7 +8,7 @@ import {
 } from "typeorm";
 import { Auth } from "./Auth";
 
-@Entity()
+@Entity("BaileysGroupMetadata")
 @Unique(["DBId"])
 export class GroupMetadata {
   @PrimaryGeneratedColumn()

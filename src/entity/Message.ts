@@ -8,7 +8,7 @@ import {
 } from "typeorm";
 import { MessageDic } from "./MessageDic";
 
-@Entity()
+@Entity("BaileysMessage")
 @Unique(["id"])
 export class Message {
   @PrimaryGeneratedColumn()

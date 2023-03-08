@@ -8,7 +8,7 @@ import {
 } from "typeorm";
 import { PresenceDic } from "./PresenceDic";
 
-@Entity()
+@Entity("BaileysPresence")
 @Unique(["DBId"])
 export class Presence {
   @PrimaryGeneratedColumn()

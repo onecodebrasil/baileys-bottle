@@ -7,7 +7,7 @@ import {
 } from "typeorm";
 import { Auth } from "./Auth";
 
-@Entity()
+@Entity("BaileysContact")
 @Unique(["DBId", "id"])
 export class Contact {
   @PrimaryGeneratedColumn()

@@ -9,7 +9,7 @@ import {
 import { Auth } from "./Auth";
 import { Presence } from "./Presence";
 
-@Entity()
+@Entity("BaileysPresenceDic")
 @Unique(["DBId"])
 export class PresenceDic {
   @PrimaryGeneratedColumn()

@@ -11,7 +11,7 @@ import { GroupMetadata } from "./GroupMetadata";
 import { MessageDic } from "./MessageDic";
 import { PresenceDic } from "./PresenceDic";
 
-@Entity()
+@Entity("BaileysAuth")
 @Unique(["key"])
 export class Auth {
   @PrimaryGeneratedColumn()
