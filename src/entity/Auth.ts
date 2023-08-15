@@ -20,7 +20,7 @@ export class Auth {
   @Column()
   key: string;
 
-  @Column({ type: "text" })
+  @Column({ type: "longtext" })
   value: string;
 
   @OneToMany(() => Chat, (chat) => chat.DBAuth)
