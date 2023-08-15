@@ -1,5 +1,5 @@
 /// <reference types="long" />
-import { proto } from "@adiwajshing/baileys";
+import { proto } from "@whiskeysockets/baileys";
 import { MessageDic } from "./MessageDic";
 export declare class Message {
     id: number;

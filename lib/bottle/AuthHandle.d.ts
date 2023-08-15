@@ -1,4 +1,4 @@
-import { AuthenticationState } from "@adiwajshing/baileys";
+import { AuthenticationState } from "@whiskeysockets/baileys";
 import { DataSource } from "typeorm";
 export default class AuthHandle {
     private ds;

@@ -1,5 +1,5 @@
 /// <reference types="long" />
-import { proto } from "@adiwajshing/baileys";
+import { proto } from "@whiskeysockets/baileys";
 import { Auth } from "./Auth";
 export declare class Chat {
     DBId: number;

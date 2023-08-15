@@ -1,4 +1,4 @@
-import { BaileysEventEmitter, ConnectionState, WAMessageKey, WAMessageCursor, WASocket } from "@adiwajshing/baileys";
+import { BaileysEventEmitter, ConnectionState, WAMessageKey, WAMessageCursor, WASocket } from "@whiskeysockets/baileys";
 import { Chat as DBChat } from "../entity/Chat";
 import { Contact as DBContact } from "../entity/Contact";
 import { Message as DBMessage } from "../entity/Message";

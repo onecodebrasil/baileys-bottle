@@ -1,4 +1,4 @@
-import { WAPresence } from "@adiwajshing/baileys";
+import { WAPresence } from "@whiskeysockets/baileys";
 import { PresenceDic } from "./PresenceDic";
 export declare class Presence {
     DBId: number;
